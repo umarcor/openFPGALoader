@@ -1140,6 +1140,8 @@ static const std::map<std::string, std::list<reg_struct_t>> reg_content = {
 		REG_ENTRY("EFUSE key",      31, 1,
 			{0, "Battery backed RAM"}, {1, "eFUSE"}),
 	}},
+	{"CTRL1", std::list<reg_struct_t>{
+	}},
 	{"STAT", std::list<reg_struct_t>{
 		REG_ENTRY("CRC Error",       0, 1,
 			{0, "No CRC error"}, {1, "CRC error"}),
